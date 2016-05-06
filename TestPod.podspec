@@ -15,8 +15,8 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "TestPod"
-  s.version      = "0.0.1"
+  s.name         = "TestPodJ"
+  s.version      = "0.0.2"
   s.summary      = "add pod testpod"
 
   # This description is used to generate tags and improve search results.
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/j364960953/TestPod.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/j364960953/TestPod.git", :tag => s.version }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
